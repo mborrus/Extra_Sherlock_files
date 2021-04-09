@@ -4,7 +4,8 @@
 #SBATCH --output=./jobfiles/regridder_%j.out
 #SBATCH --error=./jobfiles/regridder_%j.err
 #SBATCH --job-name=regridder_UT
-#SBATCH --mem=8G
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=16G
 #SBATCH --time=00:30:00
 #SBATCH --verbose
 
