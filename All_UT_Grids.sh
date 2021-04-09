@@ -1,12 +1,12 @@
 #!/bin/bash
 #
-#SBATCH --array=1-20%5
+#SBATCH --array=11-20%5
 #SBATCH --error=./jobfiles/regridder_%A-%a.err
 #SBATCH --output=./jobfiles/regridder_%A-%a.out
 #SBATCH --job-name=regridder_UT
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=16G
-#SBATCH --time=01:00:00
+#SBATCH --time=00:40:00
 #SBATCH --verbose
 #SBATCH -p serc
 
