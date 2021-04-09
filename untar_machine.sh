@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-#SBATCH --array=11-15
+#SBATCH --array=16-20
 #SBATCH --output=./jobfiles/array_%A-%a.out
 #SBATCH --job-name=unzipper_test
-#SBATCH --time=00:30:00
+#SBATCH --time=00:15:00
 #SBATCH -p serc
 #SBATCH --verbose
 
