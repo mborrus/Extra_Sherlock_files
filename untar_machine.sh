@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --array=6-10
+#SBATCH --array=11-15
 #SBATCH --output=./jobfiles/array_%A-%a.out
 #SBATCH --job-name=unzipper_test
 #SBATCH --time=00:30:00
