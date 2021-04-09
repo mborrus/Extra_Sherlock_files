@@ -1,10 +1,10 @@
 #!/bin/bash
 #
 #SBATCH --array=1-5
-#SBATCH --output=./jobfiles/unzip_%j.out
-#SBATCH --error=./jobfiles/unzip_%j.err
+#SBATCH --output=./jobfiles/array_%A-%a.out
 #SBATCH --job-name=unzipper_test
 #SBATCH --time=00:30:00
+#SBATCH -p serc
 #SBATCH --verbose
 
 echo starting work on ${SLURM_ARRAY_TASK_ID}
