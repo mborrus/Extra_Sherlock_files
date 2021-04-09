@@ -8,7 +8,7 @@
 #SBATCH --mem=16G
 #SBATCH --time=00:30:00
 #SBATCH --verbose
-#SBTACH -p serc
+#SBATCH -p serc
 
 
 echo starting work on ${SLURM_ARRAY_TASK_ID}
