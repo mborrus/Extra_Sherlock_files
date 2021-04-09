@@ -7,6 +7,7 @@
 #SBATCH --time=00:30:00
 #SBATCH --verbose
 
+echo starting work on ${SLURM_ARRAY_TASK_ID}
 datapath="/scratch/users/mborrus/Globus_data/gfdl.intel18-prod-4xCO2"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 tar -xvf 19790101.nc.tar
