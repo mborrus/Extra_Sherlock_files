@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --array=11-20%5
+#SBATCH --array=7,8,9,14,17,20
 #SBATCH --error=./jobfiles/regridder_%A-%a.err
 #SBATCH --output=./jobfiles/regridder_%A-%a.out
 #SBATCH --job-name=regridder_UT
