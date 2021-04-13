@@ -26,6 +26,3 @@ echo finished regridding ${SLURM_ARRAY_TASK_ID}
 mv dailyUT.nc /oak/stanford/schools/ees/aditis2/Globus_data/gfdl.intel18-prod-4xCO2/${SLURM_ARRAY_TASK_ID}
 
 echo finished moving 
-sacct -u mborrus --format JobName,NTasks,nodelist,MaxRSS,MaxVMSize,AveRSS,AveVMSize
-echo total time
-time
