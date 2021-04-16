@@ -1,0 +1,13 @@
+starting work on 7
+Cloning into 'FREgrid'...
+‘./FREgrid/C96_grid.tile1.nc’ -> ‘./C96_grid.tile1.nc’
+‘./FREgrid/C96_grid.tile2.nc’ -> ‘./C96_grid.tile2.nc’
+‘./FREgrid/C96_grid.tile3.nc’ -> ‘./C96_grid.tile3.nc’
+‘./FREgrid/C96_grid.tile4.nc’ -> ‘./C96_grid.tile4.nc’
+‘./FREgrid/C96_grid.tile5.nc’ -> ‘./C96_grid.tile5.nc’
+‘./FREgrid/C96_grid.tile6.nc’ -> ‘./C96_grid.tile6.nc’
+‘./FREgrid/C96_mosaic.nc’ -> ‘./C96_mosaic.nc’
+‘./FREgrid/GridRunner’ -> ‘./GridRunner’
+‘./FREgrid/grid_spec.nc’ -> ‘./grid_spec.nc’
+‘./FREgrid/mborrus@login.sherlock.stanford.edu’ -> ‘./mborrus@login.sherlock.stanford.edu’
+‘./FREgrid/README.md’ -> ‘./README.md’

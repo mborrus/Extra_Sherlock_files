@@ -1,0 +1,10 @@
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+mkdir: cannot create directory ‘/oak/stanford/schools/ees/aditis2/Globus_data/gfdl.intel18-prod-4xCO2/4’: No such file or directory
+mv: cannot move ‘dailyUT.nc’ to ‘/oak/stanford/schools/ees/aditis2/Globus_data/gfdl.intel18-prod-4xCO2/4’: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s

@@ -1,0 +1,426 @@
+starting work on 5
+Cloning into 'FREgrid'...
+‘./FREgrid/C96_grid.tile1.nc’ -> ‘./C96_grid.tile1.nc’
+‘./FREgrid/C96_grid.tile2.nc’ -> ‘./C96_grid.tile2.nc’
+‘./FREgrid/C96_grid.tile3.nc’ -> ‘./C96_grid.tile3.nc’
+‘./FREgrid/C96_grid.tile4.nc’ -> ‘./C96_grid.tile4.nc’
+‘./FREgrid/C96_grid.tile5.nc’ -> ‘./C96_grid.tile5.nc’
+‘./FREgrid/C96_grid.tile6.nc’ -> ‘./C96_grid.tile6.nc’
+‘./FREgrid/C96_mosaic.nc’ -> ‘./C96_mosaic.nc’
+‘./FREgrid/GridRunner’ -> ‘./GridRunner’
+‘./FREgrid/grid_spec.nc’ -> ‘./grid_spec.nc’
+‘./FREgrid/mborrus@login.sherlock.stanford.edu’ -> ‘./mborrus@login.sherlock.stanford.edu’
+‘./FREgrid/README.md’ -> ‘./README.md’
+****fregrid: first order conservative scheme will be used for regridding.
+Memuse(MB) at Before calling get_input_grid, min=5.89453, max=5.89453, avg=5.89453
+Memuse(MB) at After calling get_input_grid, min=9.91406, max=9.91406, avg=9.91406
+Memuse(MB) at After calling get_output_grid, min=9.91406, max=9.91406, avg=9.91406
+Memuse(MB) at After get_input_output_cell_area, min=9.9375, max=9.9375, avg=9.9375
+Input: filename=19790101.atmos_daily.tile1.nc, nvar=10, format=2
+Not compressing because input file is NetCDF3
+Memuse(MB) at After set_output_metadata, min=36.3789, max=36.3789, avg=36.3789
+NOTE: done calculating index and weight for conservative interpolation
+Memuse(MB) at After setup interp, min=45.1055, max=45.1055, avg=45.1055
+Running time for get_input_grid, min=0.06, max=0.06, avg=0.06
+Running time for get_output_grid, min=0, max=0, avg=0
+Running time for setup_interp, min=0.78, max=0.78, avg=0.78
+Memuse(MB) at After do interp, min=45.1055, max=45.1055, avg=45.1055
+Memuse(MB) at After do interp, min=45.1055, max=45.1055, avg=45.1055
+Memuse(MB) at After do interp, min=68.5703, max=68.5703, avg=68.5703
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.5977, max=68.5977, avg=68.5977
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6016, max=68.6016, avg=68.6016
+Memuse(MB) at After do interp, min=68.6445, max=68.6445, avg=68.6445
+Memuse(MB) at After do interp, min=68.6445, max=68.6445, avg=68.6445
+Memuse(MB) at After do interp, min=68.6445, max=68.6445, avg=68.6445
+Memuse(MB) at After do interp, min=68.6445, max=68.6445, avg=68.6445
+Memuse(MB) at After do interp, min=68.6641, max=68.6641, avg=68.6641
+Memuse(MB) at After do interp, min=68.6641, max=68.6641, avg=68.6641
+Memuse(MB) at After do interp, min=68.7148, max=68.7148, avg=68.7148
+Memuse(MB) at After do interp, min=68.7148, max=68.7148, avg=68.7148
+Memuse(MB) at After do interp, min=68.7148, max=68.7148, avg=68.7148
+Memuse(MB) at After do interp, min=68.7148, max=68.7148, avg=68.7148
+Memuse(MB) at After do interp, min=68.7617, max=68.7617, avg=68.7617
+Memuse(MB) at After do interp, min=68.8125, max=68.8125, avg=68.8125
+Memuse(MB) at After do interp, min=68.8125, max=68.8125, avg=68.8125
+Memuse(MB) at After do interp, min=68.8125, max=68.8125, avg=68.8125
+Memuse(MB) at After do interp, min=68.8125, max=68.8125, avg=68.8125
+Memuse(MB) at After do interp, min=68.8125, max=68.8125, avg=68.8125
+Memuse(MB) at After do interp, min=68.8125, max=68.8125, avg=68.8125
+Memuse(MB) at After do interp, min=68.8125, max=68.8125, avg=68.8125
+Memuse(MB) at After do interp, min=68.832, max=68.832, avg=68.832
+Memuse(MB) at After do interp, min=68.832, max=68.832, avg=68.832
+Memuse(MB) at After do interp, min=68.8828, max=68.8828, avg=68.8828
+Memuse(MB) at After do interp, min=68.8828, max=68.8828, avg=68.8828
+Memuse(MB) at After do interp, min=68.8828, max=68.8828, avg=68.8828
+Memuse(MB) at After do interp, min=68.8828, max=68.8828, avg=68.8828
+Memuse(MB) at After do interp, min=68.9336, max=68.9336, avg=68.9336
+Memuse(MB) at After do interp, min=68.9805, max=68.9805, avg=68.9805
+Memuse(MB) at After do interp, min=68.9805, max=68.9805, avg=68.9805
+Memuse(MB) at After do interp, min=68.9805, max=68.9805, avg=68.9805
+Memuse(MB) at After do interp, min=68.9805, max=68.9805, avg=68.9805
+Memuse(MB) at After do interp, min=68.9805, max=68.9805, avg=68.9805
+Memuse(MB) at After do interp, min=68.9805, max=68.9805, avg=68.9805
+Memuse(MB) at After do interp, min=68.9805, max=68.9805, avg=68.9805
+Memuse(MB) at After do interp, min=69.0039, max=69.0039, avg=69.0039
+Memuse(MB) at After do interp, min=69.0039, max=69.0039, avg=69.0039
+Memuse(MB) at After do interp, min=69.0508, max=69.0508, avg=69.0508
+Memuse(MB) at After do interp, min=69.0508, max=69.0508, avg=69.0508
+Memuse(MB) at After do interp, min=69.0508, max=69.0508, avg=69.0508
+Memuse(MB) at After do interp, min=69.0508, max=69.0508, avg=69.0508
+Memuse(MB) at After do interp, min=69.1016, max=69.1016, avg=69.1016
+Memuse(MB) at After do interp, min=69.1523, max=69.1523, avg=69.1523
+Memuse(MB) at After do interp, min=69.1523, max=69.1523, avg=69.1523
+Memuse(MB) at After do interp, min=69.1523, max=69.1523, avg=69.1523
+Memuse(MB) at After do interp, min=69.1523, max=69.1523, avg=69.1523
+Memuse(MB) at After do interp, min=69.1523, max=69.1523, avg=69.1523
+Memuse(MB) at After do interp, min=69.1523, max=69.1523, avg=69.1523
+Memuse(MB) at After do interp, min=69.1523, max=69.1523, avg=69.1523
+Memuse(MB) at After do interp, min=69.1719, max=69.1719, avg=69.1719
+Memuse(MB) at After do interp, min=69.1719, max=69.1719, avg=69.1719
+Memuse(MB) at After do interp, min=69.2227, max=69.2227, avg=69.2227
+Memuse(MB) at After do interp, min=69.2227, max=69.2227, avg=69.2227
+Memuse(MB) at After do interp, min=69.2227, max=69.2227, avg=69.2227
+Memuse(MB) at After do interp, min=69.2227, max=69.2227, avg=69.2227
+Memuse(MB) at After do interp, min=69.2695, max=69.2695, avg=69.2695
+Memuse(MB) at After do interp, min=69.3203, max=69.3203, avg=69.3203
+Memuse(MB) at After do interp, min=69.3203, max=69.3203, avg=69.3203
+Memuse(MB) at After do interp, min=69.3203, max=69.3203, avg=69.3203
+Memuse(MB) at After do interp, min=69.3203, max=69.3203, avg=69.3203
+Memuse(MB) at After do interp, min=69.3203, max=69.3203, avg=69.3203
+Memuse(MB) at After do interp, min=69.3203, max=69.3203, avg=69.3203
+Memuse(MB) at After do interp, min=69.3203, max=69.3203, avg=69.3203
+Memuse(MB) at After do interp, min=69.3398, max=69.3398, avg=69.3398
+Memuse(MB) at After do interp, min=69.3398, max=69.3398, avg=69.3398
+Memuse(MB) at After do interp, min=69.3906, max=69.3906, avg=69.3906
+Memuse(MB) at After do interp, min=69.3906, max=69.3906, avg=69.3906
+Memuse(MB) at After do interp, min=69.3906, max=69.3906, avg=69.3906
+Memuse(MB) at After do interp, min=69.3906, max=69.3906, avg=69.3906
+Memuse(MB) at After do interp, min=69.4414, max=69.4414, avg=69.4414
+Memuse(MB) at After do interp, min=69.4883, max=69.4883, avg=69.4883
+Memuse(MB) at After do interp, min=69.4883, max=69.4883, avg=69.4883
+Memuse(MB) at After do interp, min=69.4883, max=69.4883, avg=69.4883
+Memuse(MB) at After do interp, min=69.4883, max=69.4883, avg=69.4883
+Memuse(MB) at After do interp, min=69.4883, max=69.4883, avg=69.4883
+Memuse(MB) at After do interp, min=69.4883, max=69.4883, avg=69.4883
+Memuse(MB) at After do interp, min=69.4883, max=69.4883, avg=69.4883
+Memuse(MB) at After do interp, min=69.5117, max=69.5117, avg=69.5117
+Memuse(MB) at After do interp, min=69.5117, max=69.5117, avg=69.5117
+Memuse(MB) at After do interp, min=69.5586, max=69.5586, avg=69.5586
+Memuse(MB) at After do interp, min=69.5586, max=69.5586, avg=69.5586
+Memuse(MB) at After do interp, min=69.5586, max=69.5586, avg=69.5586
+Memuse(MB) at After do interp, min=69.5586, max=69.5586, avg=69.5586
+Memuse(MB) at After do interp, min=69.6094, max=69.6094, avg=69.6094
+Memuse(MB) at After do interp, min=69.6602, max=69.6602, avg=69.6602
+Memuse(MB) at After do interp, min=69.6602, max=69.6602, avg=69.6602
+Memuse(MB) at After do interp, min=69.6602, max=69.6602, avg=69.6602
+Memuse(MB) at After do interp, min=69.6602, max=69.6602, avg=69.6602
+Memuse(MB) at After do interp, min=69.6602, max=69.6602, avg=69.6602
+Memuse(MB) at After do interp, min=69.6602, max=69.6602, avg=69.6602
+Memuse(MB) at After do interp, min=69.6602, max=69.6602, avg=69.6602
+Memuse(MB) at After do interp, min=69.6797, max=69.6797, avg=69.6797
+Memuse(MB) at After do interp, min=69.7305, max=69.7305, avg=69.7305
+Memuse(MB) at After do interp, min=69.7305, max=69.7305, avg=69.7305
+Memuse(MB) at After do interp, min=69.7305, max=69.7305, avg=69.7305
+Memuse(MB) at After do interp, min=69.7305, max=69.7305, avg=69.7305
+Memuse(MB) at After do interp, min=69.7305, max=69.7305, avg=69.7305
+Memuse(MB) at After do interp, min=69.7773, max=69.7773, avg=69.7773
+Memuse(MB) at After do interp, min=69.8281, max=69.8281, avg=69.8281
+Memuse(MB) at After do interp, min=69.8281, max=69.8281, avg=69.8281
+Memuse(MB) at After do interp, min=69.8281, max=69.8281, avg=69.8281
+Memuse(MB) at After do interp, min=69.8281, max=69.8281, avg=69.8281
+Memuse(MB) at After do interp, min=69.8281, max=69.8281, avg=69.8281
+Memuse(MB) at After do interp, min=69.8281, max=69.8281, avg=69.8281
+Memuse(MB) at After do interp, min=69.8281, max=69.8281, avg=69.8281
+Memuse(MB) at After do interp, min=69.8477, max=69.8477, avg=69.8477
+Memuse(MB) at After do interp, min=69.8984, max=69.8984, avg=69.8984
+Memuse(MB) at After do interp, min=69.8984, max=69.8984, avg=69.8984
+Memuse(MB) at After do interp, min=69.8984, max=69.8984, avg=69.8984
+Memuse(MB) at After do interp, min=69.8984, max=69.8984, avg=69.8984
+Memuse(MB) at After do interp, min=69.8984, max=69.8984, avg=69.8984
+Memuse(MB) at After do interp, min=69.9492, max=69.9492, avg=69.9492
+Memuse(MB) at After do interp, min=69.9961, max=69.9961, avg=69.9961
+Memuse(MB) at After do interp, min=69.9961, max=69.9961, avg=69.9961
+Memuse(MB) at After do interp, min=69.9961, max=69.9961, avg=69.9961
+Memuse(MB) at After do interp, min=69.9961, max=69.9961, avg=69.9961
+Memuse(MB) at After do interp, min=69.9961, max=69.9961, avg=69.9961
+Memuse(MB) at After do interp, min=69.9961, max=69.9961, avg=69.9961
+Memuse(MB) at After do interp, min=69.9961, max=69.9961, avg=69.9961
+Memuse(MB) at After do interp, min=70.0195, max=70.0195, avg=70.0195
+Memuse(MB) at After do interp, min=70.0664, max=70.0664, avg=70.0664
+Memuse(MB) at After do interp, min=70.0664, max=70.0664, avg=70.0664
+Memuse(MB) at After do interp, min=70.0664, max=70.0664, avg=70.0664
+Memuse(MB) at After do interp, min=70.0664, max=70.0664, avg=70.0664
+Memuse(MB) at After do interp, min=70.0664, max=70.0664, avg=70.0664
+Memuse(MB) at After do interp, min=70.1172, max=70.1172, avg=70.1172
+Memuse(MB) at After do interp, min=70.168, max=70.168, avg=70.168
+Memuse(MB) at After do interp, min=70.168, max=70.168, avg=70.168
+Memuse(MB) at After do interp, min=70.168, max=70.168, avg=70.168
+Memuse(MB) at After do interp, min=70.168, max=70.168, avg=70.168
+Memuse(MB) at After do interp, min=70.168, max=70.168, avg=70.168
+Memuse(MB) at After do interp, min=70.168, max=70.168, avg=70.168
+Memuse(MB) at After do interp, min=70.168, max=70.168, avg=70.168
+Memuse(MB) at After do interp, min=70.1875, max=70.1875, avg=70.1875
+Memuse(MB) at After do interp, min=70.2383, max=70.2383, avg=70.2383
+Memuse(MB) at After do interp, min=70.2383, max=70.2383, avg=70.2383
+Memuse(MB) at After do interp, min=70.2383, max=70.2383, avg=70.2383
+Memuse(MB) at After do interp, min=70.2383, max=70.2383, avg=70.2383
+Running time for get_input, min=59.28, max=59.28, avg=59.28
+Running time for do_interp, min=19.52, max=19.52, avg=19.52
+Running time for write_data, min=3.7, max=3.7, avg=3.7
+Successfully running fregrid and the following output file are generated.
+****dailyUT.nc
+fregrid time
+finished regridding 5
+finished moving
+   JobName   NTasks        NodeList     MaxRSS  MaxVMSize     AveRSS  AveVMSize 
+---------- -------- --------------- ---------- ---------- ---------- ---------- 
+      sdev               sh03-05n72                                             
+    extern        1      sh03-05n72                                             
+      sdev        1      sh03-05n72                                             
+regridder+               sh03-05n27                                             
+     batch        1      sh03-05n27     70420K    556988K     70420K    556988K 
+    extern        1      sh03-05n27       108K    149516K       108K    149516K 
+regridder+               sh03-05n50                                             
+     batch        1      sh03-05n50                                             
+    extern        1      sh03-05n50                                             
+regridder+               sh03-05n28                                             
+     batch        1      sh03-05n28     70791K    557336K     70791K    557336K 
+    extern        1      sh03-05n28       111K    149516K       111K    149516K 
+regridder+               sh03-05n52                                             
+     batch        1      sh03-05n52                                             
+    extern        1      sh03-05n52                                             
+regridder+               sh03-05n07                                             
+     batch        1      sh03-05n07                                             
+    extern        1      sh03-05n07                                             
+regridder+               sh03-05n06                                             
+     batch        1      sh03-05n06                                             
+    extern        1      sh03-05n06                                             
+regridder+               sh03-05n27                                             
+     batch        1      sh03-05n27                                             
+    extern        1      sh03-05n27                                             
+total time
