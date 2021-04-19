@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+#SBATCH --error=./jobfiles/regridder_%A-%a.err
+#SBATCH --output=./jobfiles/regridder_%A-%a.out
+#SBATCH --job-name=regridder_UTCo2
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=8G
+#SBATCH --time=02:00:00
+#SBATCH --verbose
+#SBATCH -p serc
+
+echo starting work
+
+datapath="/scratch/users/mborrus/AM4/workdir_100days_base"
+cd $datapath
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+echo finished regridding
