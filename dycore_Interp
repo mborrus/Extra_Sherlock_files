@@ -17,4 +17,4 @@ index=(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21)
 echo $FilePath_Base/perturb_${FilePath_First[${SLURM_ARRAY_TASK_ID}-1]}_1.${FilePath_Second[${SLURM_ARRAY_TASK_ID}-1]}00000000E-07
 cd $FilePath_Base/perturb_${FilePath_First[${SLURM_ARRAY_TASK_ID}-1]}_1.${FilePath_Second[${SLURM_ARRAY_TASK_ID}-1]}00000000E-07
 
-matlab -nodisplay < /home/users/mborrus/Matlab_HPC/scripts/Aditi_dycore_interp.m
+matlab -nodisplay < /home/users/mborrus/Matlab_HPC/scripts/dycore/Aditi_dycore_interp.m
