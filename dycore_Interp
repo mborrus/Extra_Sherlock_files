@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --array=1
+#SBATCH --array=1-21
 #SBATCH --error=./jobfiles/dycore_%A-%a.err
 #SBATCH --output=./jobfiles/dycore_%A-%a.out
 #SBATCH --job-name=dycore_interp
