@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-#SBATCH --array=1-7
+#SBATCH --array=1-21
 #SBATCH --error=./jobfiles/dycore_%A-%a.err
 #SBATCH --output=./jobfiles/dycore_%A-%a.out
 #SBATCH --job-name=dycore_interp
 #SBATCH --mem=16G
-#SBATCH --time=02:00:00
+#SBATCH --time=01:00:00
 #SBATCH --verbose
 #SBATCH -p serc
 
