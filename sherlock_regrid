@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --array=12-22
+#SBATCH --array=1-2
 #SBATCH --error=./jobfiles/regridder_%A-%a.err
 #SBATCH --output=./jobfiles/regridder_%A-%a.out
 #SBATCH --job-name=regridder_UT
@@ -11,7 +11,7 @@
 #SBATCH -p serc
 conda deactivate
 
-datapath="/scratch/users/mborrus/AM4/co2"
+datapath="/scratch/users/mborrus/AM4/m1"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 
 mppnccombine -r 19790101.atmos_daily.tile1.nc
@@ -27,7 +27,23 @@ rm -rf FREgrid/
 chmod 755 GridRunner_sherlock
 ./GridRunner_sherlock
 
-datapath="/scratch/users/mborrus/AM4/quarter"
+datapath="/scratch/users/mborrus/AM4/m2"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+mppnccombine -r 19790101.atmos_daily.tile1.nc
+mppnccombine -r 19790101.atmos_daily.tile2.nc
+mppnccombine -r 19790101.atmos_daily.tile3.nc
+mppnccombine -r 19790101.atmos_daily.tile4.nc
+mppnccombine -r 19790101.atmos_daily.tile5.nc
+mppnccombine -r 19790101.atmos_daily.tile6.nc
+
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+datapath="/scratch/users/mborrus/AM4/m3"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 
 mppnccombine -r 19790101.atmos_daily.tile1.nc
