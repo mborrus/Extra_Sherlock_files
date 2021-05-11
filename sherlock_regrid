@@ -11,7 +11,7 @@
 #SBATCH -p serc
 conda deactivate
 
-datapath="/scratch/users/mborrus/AM4/m1"
+datapath="/scratch/users/mborrus/AM4/p1"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 
 mppnccombine -r 19790101.atmos_daily.tile1.nc
@@ -27,7 +27,7 @@ rm -rf FREgrid/
 chmod 755 GridRunner_sherlock
 ./GridRunner_sherlock
 
-datapath="/scratch/users/mborrus/AM4/m2"
+datapath="/scratch/users/mborrus/AM4/p2"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 
 mppnccombine -r 19790101.atmos_daily.tile1.nc
@@ -43,7 +43,7 @@ rm -rf FREgrid/
 chmod 755 GridRunner_sherlock
 ./GridRunner_sherlock
 
-datapath="/scratch/users/mborrus/AM4/m3"
+datapath="/scratch/users/mborrus/AM4/p3"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 
 mppnccombine -r 19790101.atmos_daily.tile1.nc
