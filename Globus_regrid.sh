@@ -23,5 +23,5 @@ chmod 755 GridRunner_sherlock
 
 echo finished regridding ${SLURM_ARRAY_TASK_ID}
 
-mv dailyUTP.nc /scratch/users/mborrus/AM4/base/${SLURM_ARRAY_TASK_ID}/dailyUTP.nc
+mv dailyUTP.nc /scratch/users/mborrus/AM4/Base/${SLURM_ARRAY_TASK_ID}/dailyUTP.nc
 echo finished moving 
