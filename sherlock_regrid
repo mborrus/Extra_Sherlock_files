@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --array=1-20%2
+#SBATCH --array=1-2
 #SBATCH --error=./jobfiles/regridder_%A-%a.err
 #SBATCH --output=./jobfiles/regridder_%A-%a.out
 #SBATCH --job-name=regridder_UT
@@ -11,7 +11,7 @@
 #SBATCH -p serc
 conda deactivate
 
-datapath="/scratch/users/mborrus/AM4/co2"
+datapath="/scratch/users/mborrus/AM4/SST_p4"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 
 mppnccombine -r 19790101.atmos_daily.tile1.nc
