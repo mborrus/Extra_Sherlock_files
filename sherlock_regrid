@@ -11,7 +11,7 @@
 #SBATCH -p serc
 conda deactivate
 
-datapath="/scratch/users/mborrus/AM4/SST_p4"
+datapath="/scratch/users/mborrus/AM4/SST_m4"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 
 mppnccombine -r 19790101.atmos_daily.tile1.nc
