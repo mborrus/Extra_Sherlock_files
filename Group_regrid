@@ -14,15 +14,28 @@ conda deactivate
 datapath="/scratch/users/mborrus/AM4/SST_m4"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
 
+mppnccombine -r 19790101.atmos_daily.tile1.nc
+mppnccombine -r 19790101.atmos_daily.tile2.nc
+mppnccombine -r 19790101.atmos_daily.tile3.nc
+mppnccombine -r 19790101.atmos_daily.tile4.nc
+mppnccombine -r 19790101.atmos_daily.tile5.nc
+mppnccombine -r 19790101.atmos_daily.tile6.nc
+
 git clone https://github.com/mborrus/FREgrid.git
 mv -v ./FREgrid/* .
 rm -rf FREgrid/
 chmod 755 GridRunner_sherlock
 ./GridRunner_sherlock
 
-
 datapath="/scratch/users/mborrus/AM4/SST_p4"
 cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+mppnccombine -r 19790101.atmos_daily.tile1.nc
+mppnccombine -r 19790101.atmos_daily.tile2.nc
+mppnccombine -r 19790101.atmos_daily.tile3.nc
+mppnccombine -r 19790101.atmos_daily.tile4.nc
+mppnccombine -r 19790101.atmos_daily.tile5.nc
+mppnccombine -r 19790101.atmos_daily.tile6.nc
 
 git clone https://github.com/mborrus/FREgrid.git
 mv -v ./FREgrid/* .
