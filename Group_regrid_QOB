@@ -1,0 +1,91 @@
+#!/bin/bash
+#
+#SBATCH --array=1-3
+#SBATCH --error=./jobfiles/regridder_%A-%a.err
+#SBATCH --output=./jobfiles/regridder_%A-%a.out
+#SBATCH --job-name=regridder_UT
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=16G
+#SBATCH --time=04:00:00
+#SBATCH --verbose
+#SBATCH -p serc
+
+datapath="/scratch/users/mborrus/AM4/SST_p16"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+rm -rf FREgrid/
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+datapath="/scratch/users/mborrus/AM4/SST_p12"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+rm -rf FREgrid/
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+datapath="/scratch/users/mborrus/AM4/SST_p8"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+rm -rf FREgrid/
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+datapath="/scratch/users/mborrus/AM4/SST_p4"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+rm -rf FREgrid/
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+datapath="/scratch/users/mborrus/AM4/SST_m4"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+rm -rf FREgrid/
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+datapath="/scratch/users/mborrus/AM4/SST_m8"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+rm -rf FREgrid/
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+datapath="/scratch/users/mborrus/AM4/SST_m12"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+rm -rf FREgrid/
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
+
+datapath="/scratch/users/mborrus/AM4/SST_m16"
+cd $datapath/${SLURM_ARRAY_TASK_ID}
+
+rm -rf FREgrid/
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+./GridRunner_sherlock
