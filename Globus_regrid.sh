@@ -17,3 +17,21 @@ rm -rf FREgrid/
 chmod 755 GridRunner_sherlock
 fregrid --input_mosaic C96_mosaic.nc --input_file 19790101.atmos_daily.nc --output_file dailyUTPS_1.nc --scalar_field ucomp,temp,precip,sphum --nthreads 6 --nlon 144 --nlat 90 --debug
 fregrid --input_mosaic C96_mosaic.nc --input_file 19790401.atmos_daily.nc --output_file dailyUTPS_2.nc --scalar_field ucomp,temp,precip,sphum --nthreads 6 --nlon 144 --nlat 90 --debug
+
+datapath="/scratch/users/mborrus/gfdl.ncrc4-intel-prod-openmp-3aditi/2x3m0d_432x2a1/history/"
+cd $datapath
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+fregrid --input_mosaic C96_mosaic.nc --input_file 19790101.atmos_daily.nc --output_file dailyUTPS_1.nc --scalar_field ucomp,temp,precip,sphum --nthreads 6 --nlon 144 --nlat 90 --debug
+fregrid --input_mosaic C96_mosaic.nc --input_file 19790401.atmos_daily.nc --output_file dailyUTPS_2.nc --scalar_field ucomp,temp,precip,sphum --nthreads 6 --nlon 144 --nlat 90 --debug
+
+datapath="/scratch/users/mborrus/gfdl.ncrc4-intel-prod-openmp-3aditi/2x3m0d_432x2a2/history/"
+cd $datapath
+git clone https://github.com/mborrus/FREgrid.git
+mv -v ./FREgrid/* .
+rm -rf FREgrid/
+chmod 755 GridRunner_sherlock
+fregrid --input_mosaic C96_mosaic.nc --input_file 19790101.atmos_daily.nc --output_file dailyUTPS_1.nc --scalar_field ucomp,temp,precip,sphum --nthreads 6 --nlon 144 --nlat 90 --debug
+fregrid --input_mosaic C96_mosaic.nc --input_file 19790401.atmos_daily.nc --output_file dailyUTPS_2.nc --scalar_field ucomp,temp,precip,sphum --nthreads 6 --nlon 144 --nlat 90 --debug
