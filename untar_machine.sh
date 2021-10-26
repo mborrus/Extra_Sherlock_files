@@ -1,14 +1,22 @@
 #!/bin/bash
 #
-#SBATCH --array=16-20
+#SBATCH --array=1-3
 #SBATCH --output=./jobfiles/array_%A-%a.out
 #SBATCH --job-name=unzipper_test
-#SBATCH --time=00:15:00
+#SBATCH --time=00:30:00
 #SBATCH -p serc
 #SBATCH --verbose
 
-echo starting work on ${SLURM_ARRAY_TASK_ID}
-datapath="/scratch/users/mborrus/Globus_data/gfdl.intel18-prod-4xCO2"
-cd $datapath/${SLURM_ARRAY_TASK_ID}
-tar -xvf 19790101.nc.tar
-echo finished unzipping ${SLURM_ARRAY_TASK_ID}
+ending=('' '1' '2' '3')
+index=${ending[${SLURM_ARRAY_TASK_ID}-1]}
+
+datapath="/scratch/users/mborrus/Globus_data/"
+
+cd $datapath/2x12m0d_432x2a${index}/history
+tar -xvf 19800101.nc.tar
+
+cd $datapath/2x6m0d_432x2a${index}/history
+tar -xvf 19790701.nc.tar
+
+cd $datapath/2x9m0d_432x2a${index}/history
+tar -xvf 19791001.nc.tar
