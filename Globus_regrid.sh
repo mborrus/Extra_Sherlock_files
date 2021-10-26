@@ -10,6 +10,8 @@
 #SBATCH --verbose
 #SBATCH -p serc
 
+ml load netcdf
+
 ending=('' '1' '2' '3')
 index=${ending[${SLURM_ARRAY_TASK_ID}-1]}
 
