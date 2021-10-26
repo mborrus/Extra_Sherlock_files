@@ -42,4 +42,4 @@ rm -rf FREgrid/
 chmod 755 GridRunner_sherlock
 fregrid --input_mosaic C96_mosaic.nc --input_file 19791001.atmos_daily.nc --output_file dailyUTPS.nc --scalar_field ucomp,temp,precip,sphum --nthreads 6 --nlon 144 --nlat 90 --debug
 mkdir /scratch/users/mborrus/AM4/TOM/Q4/${SLURM_ARRAY_TASK_ID}
-cp dailyUTP.nc /scratch/users/mborrus/AM4/TOM/Q4/${SLURM_ARRAY_TASK_ID}
+cp dailyUTPS.nc /scratch/users/mborrus/AM4/TOM/Q4/${SLURM_ARRAY_TASK_ID}
